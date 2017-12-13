@@ -6,13 +6,14 @@ This is a model of paper publication and consumption that allows to study the ef
 
 In order to compare the two filters - reputation and peer review - the model includes a common paper production mechanism and then runs two distinct sub-models for accessing papers: one driven by reputation and the other by peer review.
 
-The simulation cycle of the model begins with paper production, generating the papers for the current time step and adding them to the papers pool. Afterwards, it applies either a simulated peer review process or a simulated reputation mechanism, both driving parallel reading processes. In the former case, scientists read papers as prioritized by journal’s quality whereas, in the latter case, they read papers as prioritized by their reputation.
+The simulation cycle of the model begins with paper production, generating the papers for the current time step and adding them to the papers pool. Afterwards, it applies either a simulated peer review process or a simulated reputation mechanism, both driving parallel reading processes. In the former case, scientists read papers as prioritized by journalâ€™s quality whereas, in the latter case, they read papers as prioritized by their reputation.
 
 The two sub-models share the same ground truth for what regards paper and scientist quality. This guarantees a clean comparison, made with exactly the same papers in the system, at the cost of ignoring the feedback from reading towards paper production.
 
 # Installation notes (important!)
 
 * This model needs NetLogo 5.3.1.
+* The model and the extensions needed to run it can be downloaded as a zip file here: https://github.com/LABSS/PeerReviewGPS/releases.
 * The model makes use of four different NetLogo extensions:
     * `pr-utils` is a custom extension developped specifically for this model.
     * [`stats`](https://github.com/cstaelin/Stats-Extension) provides NetLogo with a tables for holding data gathered during runs, a number of statistical procedures to use on those data, and access to a number of useful distributions.
@@ -25,9 +26,9 @@ The two sub-models share the same ground truth for what regards paper and scient
 
 # How to use it
 
-SETUP button — sets up the model by creating the agents.
+SETUP button â€” sets up the model by creating the agents.
 
-GO button — runs the model
+GO button â€” runs the model
 
 GO-ONCE - runs one step of the simulation
 
