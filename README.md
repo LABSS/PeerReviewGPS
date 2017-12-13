@@ -12,7 +12,7 @@ The two sub-models share the same ground truth for what regards paper and scient
 
 # Installation notes (important!)
 
-* This model needs NetLogo 5.3.1.
+* This model needs [NetLogo 5.3.1](http://ccl.northwestern.edu/netlogo/5.3.1/).
 * The model and the extensions needed to run it can be downloaded as a zip file here: https://github.com/LABSS/PeerReviewGPS/releases.
 * The model makes use of four different NetLogo extensions:
     * `pr-utils` is a custom extension developped specifically for this model.
